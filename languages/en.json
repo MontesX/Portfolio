@@ -1,0 +1,44 @@
+{
+    "profile":{
+        "role": "Software Developer",
+        "description": "Software Developer specialized in Backend development, focused on creating scalable solutions with Spring Boot and Microservices.<br>I have over 2 years of hands-on experience in the tech industry.<br><br> My previous background as an architect provides me with a structural and detail-oriented perspective for solving complex problems, working under pressure, and ensuring precise process execution. <br><br> Efficiency and quality are the core principles that drive my professional performance."
+    },
+
+    "experiences": {
+        "experiences-title": "Experience",
+        "first-job-title": "Front End Web Developer",
+        "first-job-dates": "May 2024",
+        "first-job-description": "As a Full Stack Developer, I focused on building practical and dynamic projects. I designed several games to sharpen my programming logic, a text encryptor to experiment with data security, and a movie catalog with full CRUD functionality. <br>These challenges helped me master data management and build user experiences from the ground up.",
+
+        "second-job-title": "Back End Java Developer",
+        "second-job-dates": "Jan 2025",
+        "second-job-description": "As a Java Backend Developer, I specialize in building the logic and structure of functional systems. I have developed software integrating external APIs, as well as projects including bank account simulators and e-commerce platforms. <br>Additionally, I build REST APIs from the ground up, focusing on efficient data management and ensuring seamless, error-free performance."
+    },
+
+    "hobbies":{
+        "hobbie-title": "What i'm all about?",
+        "hobbie-description": "I'm passionate about diving into great stories, whether it's through video games, anime, books, or comics. <br><br>When I'm not exploring other worlds, I love creating my own by drawing or letting off some steam on the drums. For me, it's all about creativity, art, a good beat and a good structure."
+    },
+
+    "skills":{
+        "skill-1-yoe": "Years of experience",
+        "skill-2-yoe": "Years of experience",
+        "skill-3-title": "Complementary Skills",
+        "skill-3-yoe": "Years of experience"   
+    },
+
+    "projects":{
+        "first-project-title":"ForoHub - API", 
+        "first-project-description": "ForoHub is a platform designed to create, manage, and participate in educational discussion forums. The project implements user registration, topics, and replies, along with full data CRUD operations. It handles data persistence in a database, accessible through API clients such as Insomnia.<br><br>- User Management: Authentication and authorization powered by JWT.<br>- Forum Management: Creation and visualization of topics and replies.<br>- Course Management: Association of courses with specific topics and categories.<br>- API Documentation: Automatically generated with Swagger (OpenAPI).<br>- Security: Implementation of roles and permissions using Spring Security.",
+        "second-project-title": "Literalura - Digital Book Search", 
+        "second-project-description":"With this application, you will be able to perform book searches by consuming the Gutendex API.<br>You have several search modes available, such as:<br><br>- Search books by title.<br>- List registered books.<br>- List registered authors.<br>- List authors alive in a specific year.<br>- List books by language.",
+        "third-project-title":"Text Encryptor", 
+        "third-project-description": "With this application, you will be able to create secret messages. It features a challenging 'encryption key' logic.<br>It includes message encryption and decryption functionalities.",
+        "fourth-project-title": "Currency Converter",
+        "fourth-project-description": "With this application, you will be able to perform currency conversions between different currencies.<br><br>Available currencies<br>US Dollar (USD)<br>Euro (EUR)<br>British Pound (GBP)<br>Japanese Yen (JPY)<br>Canadian Dollar (CAD)<br>Colombian Peso (COP)<br>Chilean Peso (CLP)<br>Mexican Peso (MXN)<br>Brazilian Real (BRL)<br>Argentine Peso (ARS)<br>",
+        "fifth-project-title": "Smart-X Online Store",
+        "fifth-project-description": "This project is a Java-based console application that simulates the core functionality of an online store. The system allows users to log in, manage a virtual wallet, browse available products, handle a shopping cart, and complete purchases with real-time balance validation and stock control.<br><br>The project was designed prioritizing logical flow clarity and the separation of concerns between classes, leaving room for future enhancements such as managing multiple quantities per product, among others."
+
+    }
+
+}

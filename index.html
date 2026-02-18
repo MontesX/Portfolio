@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="light">
+
+    <header class="header">
+      <div class="switches">
+
+        <!--MODO CLARO/OSCURO-->
+        <div id ="toggle-theme" class = "toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon to change theme"
+          class="toggle-theme__icon"/>
+          <p 
+          id ="toggle-text" 
+          class="toggle-theme__text"
+          >
+            Dark Mode
+          </p>
+        </div>
+
+      </div>
+
+      <!--BANDERAS-->
+      <div id="idflags" class = "flags">
+
+        <!--BANDERA - MX-->
+        <div class="flags__item" data-language="es">
+          <p class="flag__text">Esp</p>
+          <img src="assets/icons/mx.svg" alt="bandera de México" class="flags__img">
+        </div>
+
+        <!--BANDERA - EU-->
+        <div class="flags__item" data-language="en">
+          <p class="flag__text">Eng</p>
+          <img src="assets/icons/us.svg" alt="bandera de US" class="flags__img">
+                    
+        </div>
+
+      </div>
+
+
+      <!--CAMBIO DE TEMA-->
+      <div id = "toggle-colors" class = "colors">
+
+          <div id= "button-mono" class = "colors__item colors__item--mono"></div>
+          <div data-color="hsl(0, 86%, 44%)" class = "colors__item colors__item--red"></div>
+          <div data-color="hsl(214, 84%, 56%)" class = "colors__item colors__item--blue"></div>
+          <div  data-color="hsl(150, 66%, 48%)" class = "colors__item colors__item--green"></div>
+        
+      </div>
+        
+    </header>
+
+    <main class = "main" >
+      <section class = "column column--left">
+
+
+        <!--PROFILE CARD-->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src = "assets/images/profile.jpg" alt="imágen de perfil">
+          </div>
+          <div class="card__header">
+          <h2 class = "card__title">Paúl Montes</h2>
+          <p class="card__subtitle"
+          data-section="profile"
+          data-value="role"
+          >
+            Desarrollador de Software
+          </p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fa-solid fa-envelope icon"></i> <!--Crea icono de sobre-->
+              <a href="mailto:paulmnts20@gmail.com">paulmnts20@gmail.com</a>
+            </div>
+            <div class="card__link">
+              <i class="fa-solid fa-phone icon"></i> <!--Crea icono de teléfono-->
+              <a href="tel:6672735525">+52 667 273 5525</a>
+            </div>
+            <p class="card__text"
+            data-section="profile"
+            data-value="description"
+            >
+              Desarrollador de software con especialización en Backend, enfocado en la creación 
+              de soluciones escalables con Spring Boot y Microservicios. Cuento con más de un año y medio 
+              de experiencia y práctica en la rama tecnológica. <br><br>
+              Mi experiencia previa como arquitecto, me aporta una visión estructural y detallista
+              para la resolución de problemas complejos, trabajo bajo presión y la correcta ejecución de procesos. <br><br>
+              La eficiencia y la calidad son principios que rigen mi desempeño profesional. 
+            </p>
+          </div>
+        </article>
+        <!--EXPERIENCES-->
+        <article class="card card--experience">
+           <h2 class="card__title--experience"
+           data-section="experiences"
+           data-value="experiences-title"
+           >
+           Experiencias
+          </h2>
+
+           <!--EXPERIENCES - Full Stack Dev-->
+           <div class="experience">
+            <div class="experience__info">
+
+              <p class="experience__time"
+              data-section="experiences"
+              data-value="first-job-dates"
+              >Mayo 2024
+            </p>
+
+              <h3 class="experience__job"
+              data-section="experiences"
+              data-value="first-job-title"
+              >
+              Desarrollador Web Front End
+            </h3>
+
+              <p class="experience__description"
+              data-section="experiences"
+              data-value="first-job-description"
+              >
+                En mi etapa como desarrollador Full Stack, me enfoqué en crear proyectos prácticos y dinámicos. 
+                <br>Diseñé y desarrollé diversos proyectos, ideales para implementar la seguridad de datos y funciones CRUD completas.
+              </p>
+
+            </div>
+           </div>
+
+           <!--EXPERIENCES - Back End Dev-->
+           <div class="experience">
+            <div class="experience__info">
+
+            <p class="experience__time"
+                data-section="experiences"
+                data-value="second-job-dates"
+                >
+                Enero 2025
+            </p>
+
+              <h3 class="experience__job"
+                data-section="experiences"
+                data-value="second-job-title"
+                >
+                Desarrollador Java Back End 
+              </h3>
+
+              <p class="experience__description"
+                data-section="experiences"
+                data-value="second-job-description"
+                >
+                Como desarrollador Back End con Java, me especialicé en construir la lógica y estructura de sistemas funcionales. 
+                Desarrollé software integrando APIs externas, un simulador de cuentas bancarias y e-commerce. 
+                <br>Además, desarrollé API REST desde cero, enfocándome en el manejo eficiente de datos y en asegurar que todo funcione 
+                sin errores.
+              </p>
+
+            </div>
+           </div>
+        </article>
+
+        <!--HOBBIES-->
+        <article class = "card card--hobbies">
+          <h2 class="card__title--hobbies">Hobbies</h2>
+          <div class="card__image-container--content">
+            <img id="toggle-hobbies" src = "assets/images/hobbie.png" alt="Hobbies de Paul">
+          </div>
+
+          <h3 class="hobbie__title"
+            data-section="hobbies"
+            data-value="hobbie-title"
+            >
+            ¿Qué me apasiona?
+          </h3>
+
+          <p class="card__text"
+            data-section="hobbies"
+            data-value="hobbie-description"
+            >
+            Me apasiona sumergirme en grandes historias, ya sea en videojuegos, anime o leyendo libros y cómics. 
+            <br><br>Cuando no estoy explorando otros mundos, disfruto crear los míos dibujando o liberando energía tocando la batería. Me encanta todo lo que tenga que ver con la creatividad, el arte, el ritmo y el orden.
+          </p>
+
+        </article>
+      </section>
+
+
+      <!--RIGHT COLUMN-->
+      <section class="column column--right">
+
+        <!--SKILLS CARD FRONT END-->
+        <article class="card--right">
+          <h2 class="card__title">Skills - Front End</h2>
+          <SMall
+            data-section="skills"
+            data-value="skill-1-yoe"
+            >
+            Años de experiencia
+          </SMall>
+
+          <div class="skills__header">
+          </div>
+
+          <div class="skills">
+
+            <!--SKILLS_HTML-->
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <span class="skills__start-level">0</span>
+              <div class="skills__bar skills__bar--40"></div>
+              <span class="skills__start-level">5</span>  
+            </div>
+            
+            <!--SKILLS_CSS-->
+            <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+            <span class="skills__start-level">0</span>
+            <div class="skills__bar skills__bar--40"></div>
+            <span class="skills__start-level">5</span>
+            </div>
+
+            <!--SKILLS_JS-->
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <span class="skills__start-level">0</span>
+                <div class="skills__bar skills__bar--50"></div>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <!--SKILLS_FIGMA-->
+            <div class="skills__item">
+              <p class="skills__tech">Figma</p>
+              <span class="skills__start-level">0</span>
+                <div class="skills__bar skills__bar--40"></div>
+              <span class="skills__start-level">5</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!--SKILLS CARD BACKEND-->
+        <article class="card--right">
+          <h2 class="card__title">Skills - Back End</h2>
+
+          <SMall
+            data-section="skills"
+            data-value="skill-2-yoe"
+            >
+            Años de experiencia
+          </SMall>
+
+          <div class="skills__header"></div>
+
+          <div class="skills">
+
+            <!--SKILLS_JAVA-->
+            <div class="skills__item">
+            <p class="skills__tech">Java 17+</p>
+            <span class="skills__start-level">0</span>
+              <div class="skills__bar skills__bar--50"></div>
+            <span class="skills__start-level">5</span>  
+            </div>
+            
+            <!--SKILLS_SPRING-->
+            <div class="skills__item">
+            <p class="skills__tech">Springboot</p>
+            <span class="skills__start-level">0</span>
+            <div class="skills__bar skills__bar--30"></div>
+            <span class="skills__start-level">5</span>
+            </div>
+
+            <!--SKILLS_SPRING SECURITY-->
+            <div class="skills__item">
+              <p class="skills__tech">Spring Security</p>
+              <span class="skills__start-level">0</span>
+              <div class="skills__bar skills__bar--30"></div>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <!--SKILLS_SPRING SECURITY-->
+            <div class="skills__item">
+              <p class="skills__tech">Spring Data JPA</p>
+              <span class="skills__start-level">0</span>
+              <div class="skills__bar skills__bar--30"></div>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <!--SKILLS_SPRING Hibernate-->
+            <div class="skills__item">
+              <p class="skills__tech">Hibernate</p>
+              <span class="skills__start-level">0</span>
+              <div class="skills__bar skills__bar--30"></div>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <!--SKILLS_SPRING PostgreSQL-->
+            <div class="skills__item">
+              <p class="skills__tech">MySQL | PostgreSQL</p>
+              <span class="skills__start-level">0</span>
+              <div class="skills__bar skills__bar--40"></div>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <!--SKILLS_SPRING Maven-->
+            <div class="skills__item">
+              <p class="skills__tech">Maven</p>
+              <span class="skills__start-level">0</span>
+              <div class="skills__bar skills__bar--20"></div>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <!--SKILLS_SPRING Postman-->
+            <div class="skills__item">
+              <p class="skills__tech">Postman</p>
+              <span class="skills__start-level">0</span>
+              <div class="skills__bar skills__bar--30"></div>
+              <span class="skills__start-level">5</span>
+            </div>
+
+          </div>
+        </article>
+
+
+        <!--SKILLS COMPLEMENTARY-->
+        <article class="card--right">
+          <h2 class="card__title"
+            data-section="skills"
+            data-value="skill-3-title"
+            >
+            Skills - Complementarias
+          </h2>
+
+          <SMall
+            data-section="skills"
+            data-value="skill-3-yoe"
+            >
+            Años de experiencia
+          </SMall>
+
+          <div class="skills__header">
+          </div>
+
+          <div class="skills">
+
+            <!--SKILLS_VERSION CONTROL-->
+            <div class="skills__item">
+              <p class="skills__tech">Git | GitHub</p>
+              <span class="skills__start-level">0</span>
+              <div class="skills__bar skills__bar--40"></div>
+              <span class="skills__start-level">5</span>  
+            </div>
+            
+            <!--SKILLS_Checkmarx-->
+            <div class="skills__item">
+            <p class="skills__tech">Checkmarx (DevSecOps)</p>
+            <span class="skills__start-level">0</span>
+            <div class="skills__bar skills__bar--30"></div>
+            <span class="skills__start-level">5</span>
+            </div>
+
+            <!--SKILLS_AGILE-->
+            <div class="skills__item">
+              <p class="skills__tech">Agile Software Development</p>
+              <span class="skills__start-level">0</span>
+                <div class="skills__bar skills__bar--40"></div>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <!--SKILLS_GEMS-->
+            <div class="skills__item">
+              <p class="skills__tech">AI Assistant tools</p>
+              <span class="skills__start-level">0</span>
+                <div class="skills__bar skills__bar--20"></div>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <!--SKILLS_SOFTSKILLS-->
+            <div class="skills__item">
+              <p class="skills__tech">Soft Skills</p>
+              <span class="skills__start-level">0</span>
+                <div class="skills__bar skills__bar--80"></div>
+              <span class="skills__start-level">5</span>
+            </div>
+          </div>
+        </article>
+
+        <!--PROJECTS-->
+        <article class = "card--right card__project">
+          <div class="card__image-container--content">
+            <img src="assets/images/project1.jpg" alt="Portfolio Project" class = "card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#Java17</span>
+              <span class="project__tag">#Springboot</span>
+              <span class="project__tag">#JWT</span>
+              <span class="project__tag">#JPA</span>
+              <span class="project__tag">#Hibernate</span>
+              <span class="project__tag">#MySQL</span>
+              <span class="project__tag">#Maven</span>
+              <span class="project__tag">#REST</span>
+            </div>
+
+            <h2 class="card__title"
+              data-section="projects"
+              data-value="first-project-title"
+              >
+              ForoHub - API
+            </h2>
+
+            <p class="card__text"
+              data-section="projects"
+              data-value="first-project-description"
+              >
+              ForoHub es una plataforma diseñada para crear, gestionar y participar en foros de temas educativos. 
+              El proyecto tiene la implementacion de registro de usuarios, tópicos y respuestas. 
+              Así como operaciones CRUD. Almacena esta información en una base de datos y tienes 
+              acceso a ella mediante plataformas como Insomnia.,<br><br>
+              - Gestión de Usuarios: Autenticación y autorización con JWT.<br>
+              - Gestión de Foros: Creación y visualización de temas y respuestas.<br>
+              - Gestión de Cursos: Asociación de cursos con temas y categorías.<br>
+              - Documentación de la API: Generada con Swagger.<br>
+              - Seguridad: Implementación de roles y permisos con Spring Security.<br>
+            </p>
+
+            <div class="buttons">
+            <!--<a href="#" target="_blank" class="button button--primary">Demo</a>-->
+            <a href="https://github.com/MontesX/ForoHub_Alura" target="_blank" class="button button--ghost">Code</a>
+          </div>
+          </div>
+        </article>
+
+        <article class = "card--right card__project">
+          <div class="card__image-container--content">
+            <img src="assets/images/project2.jpg" alt="Portfolio Project" class = "card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#Java17</span>
+              <span class="project__tag">#Springboot</span>
+              <span class="project__tag">#Maven</span>
+              <span class="project__tag">#PostgreSQL</span>
+              <span class="project__tag">#JPA</span>
+              <span class="project__tag">#GutendexAPI</span>
+            </div>
+
+            <h2 class="card__title"
+              data-section="projects"
+              data-value="second-project-title"
+              >
+              Literalura - Buscador de libros en línea
+            </h2>
+
+            <p class="card__text"
+              data-section="projects"
+              data-value="second-project-description"
+              >
+              Con esta aplicación serás capaz de realizar búsquedas de libros consumiendo la API de Gutendex.<br> 
+              Tienes distintas modalidades de búsqueda como:<br><br>
+              - Buscar libro por título<br>
+
+              - Mostrar libros registrados.<br>
+
+              - Mostrar autores registrados.<br>
+
+              - Mostrar autores vivos en cierto año.<br>
+
+              - Mostrar libros por idioma.<br>
+
+            </p>
+
+            <div class="buttons">
+            <!--<a href="#" target="_blank" class="button button--primary">Demo</a>-->
+            <a href="https://github.com/MontesX/Literalura_Project" target="_blank" class="button button--ghost">Code</a>
+          </div>
+          </div>
+        </article>
+
+        <article class = "card--right card__project">
+          <div class="card__image-container--content">
+            <img src="assets/images/project3.jpg" alt="Portfolio Project" class = "card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Responsive</span>
+              <span class="project__tag">#Photoshop</span>
+              <span class="project__tag">#Figma</span>
+            </div>
+
+            <h2 class="card__title"
+              data-section="projects"
+              data-value="third-project-title"
+              >
+              Encriptador de textos - desarrollo web
+            </h2>
+
+            <p class="card__text"
+              data-section="projects"
+              data-value="third-project-description"
+              >
+              En esta aplicación, serás capaz de crear mensajes secretos. Contiene una lógica de 
+              "llaves de encriptación" difíciles de resolver.<br> 
+              Incluye funciones de encriptado y desencriptado de mensajes.
+            </p>
+
+            <div class="buttons">
+            <a href="https://encriptador-alura-challenge-one.vercel.app/" target="_blank" class="button button--primary">Demo</a>
+            <a href="https://github.com/MontesX/Encriptador-ALURA-Challenge-ONE" target="_blank" class="button button--ghost">Code</a>
+          </div>
+          </div>
+        </article>
+
+        <article class = "card--right card__project">
+          <div class="card__image-container--content">
+            <img src="assets/images/project4.jpg" alt="Portfolio Project" class = "card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#Java</span>
+              <span class="project__tag">#GsonLibrary</span>
+              <span class="project__tag">#ExchangeRateAPI</span>
+              <span class="project__tag">#Console</span>
+              <span class="project__tag">#POO</span>
+            </div>
+
+            <h2 class="card__title"
+              data-section="projects"
+              data-value="fourth-project-title"
+              >
+              Conversor de Divisas
+            </h2>
+
+            <p class="card__text"
+              data-section="projects"
+              data-value="fourth-project-description"
+              >
+              Con esta aplicación serás capaz de realizar conversiones de montos entre divisas.<br>
+              Divisas disponibles:<br><br>
+              Dólar Estadounidense (USD)<br>
+              Euro (EUR)<br>
+              Libra Esterlina (GBP)<br>
+              Yen Japonés (JPY)<br>
+              Dólar Canadiense (CAD)<br>
+              Peso Colombiano (COP)<br>
+              Peso Chileno (CLP)<br>
+              Peso Mexicano (MXN)<br>
+              Real Brasileño (BRL)<br>
+              Peso Argentino (ARS)
+            </p>
+
+            <div class="buttons">
+            <!--<a href="#" target="_blank" class="button button--primary">Demo</a>-->
+            <a href="https://github.com/MontesX/Conversor_Alura_Challenge" target="_blank" class="button button--ghost">Code</a>
+          </div>
+          </div>
+        </article>
+
+        <article class = "card--right card__project">
+          <div class="card__image-container--content">
+            <img src="assets/images/project5.jpg" alt="Portfolio Project" class = "card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#Java</span>
+              <span class="project__tag">#POO</span>
+              <span class="project__tag">#Console</span>
+            </div>
+
+            <h2 class="card__title"
+              data-section="projects"
+              data-value="fifth-project-title"
+              >
+              Smart-X Tienda en linea
+            </h2>
+
+            <p class="card__text"
+              data-section="projects"
+              data-value="fifth-project-description"
+              >
+              El proyecto consiste en una aplicación de consola desarrollada en Java que simula el funcionamiento básico de una tienda en línea. 
+              El sistema permite a un usuario iniciar sesión, administrar un monedero virtual, visualizar productos disponibles, gestionar un carrito de compras y realizar compras con validación de saldo y control de stock.<br><br>
+              El proyecto fue diseñado priorizando la claridad del flujo lógico y la separación de responsabilidades entre clases, dejando abiertas posibles mejoras futuras como el manejo de cantidades por producto, entre otros.
+            </p>
+
+            <div class="buttons">
+            <!--<a href="#" target="_blank" class="button button--primary">Demo</a>-->
+            <a href="https://github.com/MontesX/Tienda_en_linea_Smart-X" target="_blank" class="button button--ghost">Code</a>
+          </div>
+          </div>
+        </article>
+
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

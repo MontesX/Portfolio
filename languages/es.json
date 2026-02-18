@@ -1,0 +1,43 @@
+{
+    "profile":{
+        "role": "Desarrollador de Software",
+        "description": "Desarrollador de software con especialización en Backend, enfocado en la creación de soluciones escalables con Spring Boot y Microservicios. Cuento con más de un año y medio de experiencia y práctica en la rama tecnológica. <br><br> Mi experiencia previa como arquitecto, me aporta una visión estructural y detallista para la resolución de problemas complejos, trabajo bajo presión y la correcta ejecución de procesos. <br><br> La eficiencia y la calidad son principios que rigen mi desempeño profesional."
+    },
+
+    "experiences": {
+        "experiences-title": "Experiencias",
+        "first-job-title": "Desarrollador Web Front End",
+        "first-job-dates": "Mayo 2024",
+        "first-job-description": "En mi etapa como desarrollador Full Stack, me enfoqué en crear proyectos prácticos y dinámicos. <br>Diseñé y desarrollé diversos proyectos, ideales para implementar la seguridad de datos y funciones CRUD completas.",
+
+        "second-job-title": "Desarrollador Java Back End",
+        "second-job-dates": "Enero 2025",
+        "second-job-description": "Como desarrollador Back End con Java, me especialicé en construir la lógica y estructura de sistemas funcionales. Desarrollé software integrando APIs externas, un simulador de cuentas bancarias y e-commerce. <br>Además, desarrollé API REST desde cero, enfocándome en el manejo eficiente de datos y en asegurar que todo funcione sin errores."
+    },
+
+    "hobbies":{
+        "hobbie-title": "¿Qué me apasiona?",
+        "hobbie-description": "Me apasiona sumergirme en grandes historias, ya sea en videojuegos, anime o leyendo libros y cómics. <br><br>Cuando no estoy explorando otros mundos, disfruto crear los míos dibujando o liberando energía tocando la batería. Me encanta todo lo que tenga que ver con la creatividad, el arte, el ritmo y el orden."
+    },
+
+    "skills":{
+        "skill-1-yoe": "Años de experiencia",
+        "skill-2-yoe": "Años de experiencia",
+        "skill-3-title": "Skills - Complementarias",
+        "skill-3-yoe": "Años de experiencia"   
+    },
+
+    "projects":{
+        "first-project-title":"ForoHub - API", 
+        "first-project-description": "ForoHub es una plataforma diseñada para crear, gestionar y participar en foros de temas educativos. El proyecto tiene la implementacion de registro de usuarios, tópicos y respuestas. Así como operaciones CRUD. Almacena esta información en una base de datos y tienes acceso a ella mediante plataformas como Insomnia.<br><br>- Gestión de Usuarios: Autenticación y autorización con JWT.<br>- Gestión de Foros: Creación y visualización de temas y respuestas.<br>- Gestión de Cursos: Asociación de cursos con temas y categorías.<br>- Documentación de la API: Generada con Swagger.<br>- Seguridad: Implementación de roles y permisos con Spring Security.<br>",
+        "second-project-title": "Literalura - Buscador de libros en línea", 
+        "second-project-description":"Con esta aplicación serás capaz de realizar búsquedas de libros consumiendo la API de Gutendex.<br> Tienes distintas modalidades de búsqueda como:<br><br>- Buscar libro por título<br>- Mostrar libros registrados.<br>- Mostrar autores registrados.<br>- Mostrar autores vivos en cierto año.<br>- Mostrar libros por idioma.<br>",
+        "third-project-title":"Encriptador de textos - desarrollo web", 
+        "third-project-description": "En esta aplicación, serás capaz de crear mensajes secretos. Contiene una lógica de llaves de encriptación difíciles de resolver.<br> Incluye funciones de encriptado y desencriptado de mensajes.",
+        "fourth-project-title": "Conversor de Divisas",
+        "fourth-project-description": "Con esta aplicación serás capaz de realizar conversiones de montos entre divisas.<br>Divisas disponibles:<br><br>Dólar Estadounidense (USD)<br>Euro (EUR)<br>Libra Esterlina (GBP)<br>Yen Japonés (JPY)<br>Dólar Canadiense (CAD)<br>Peso Colombiano (COP)<br>Peso Chileno (CLP)<br>Peso Mexicano (MXN)<br>Real Brasileño (BRL)<br>Peso Argentino (ARS)",
+        "fifth-project-title": "Smart-X Tienda en linea",
+        "fifth-project-description": "El proyecto consiste en una aplicación de consola desarrollada en Java que simula el funcionamiento básico de una tienda en línea. El sistema permite a un usuario iniciar sesión, administrar un monedero virtual, visualizar productos disponibles, gestionar un carrito de compras y realizar compras con validación de saldo y control de stock.<br><br>El proyecto fue diseñado priorizando la claridad del flujo lógico y la separación de responsabilidades entre clases, dejando abiertas posibles mejoras futuras como el manejo de cantidades por producto, entre otros."
+    }
+
+}
